@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/income_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_income" />
+
+    <EditText
+        android:id="@+id/in_detail_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/detail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/in_money_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/money"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/income_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/Button3" />
+</LinearLayout>
